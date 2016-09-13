@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Remi Counter</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="ndas"></div>
+
+<form>
+  <input type="text" name="p1" class="tek">
+  <input type="text" name="p2" class="tek">
+  <input type="text" name="p3" class="tek">
+  <input type="text" name="p4" class="tek"><br>
+  
+  <input type="text" name="jpoin" id="jpoin" class="tek">
+  <input type="text" name="rpoin" id="rpoin" class="tek">
+  <input type="text" name="spoin" id="spoin" class="tek">
+  <input type="text" name="fpoin" id="fpoin" class="tek"><br>
+  <input type="text" name="jtotal" id="jtotal" readonly value="0" class="tot">
+  <input type="text" name="rtotal" id="rtotal" readonly value="0" class="tot">
+  <input type="text" name="stotal" id="stotal" readonly value="0" class="tot">
+  <input type="text" name="ftotal" id="ftotal" readonly value="0" class="tot"><br>
+  <input type="button" value="SUBMIT" class="button" id="button" onClick="sum()">
+  <input type="button" value="CLEAR" class="button" id="klir" onClick="klir()">
+</form> 
+
+</body>
+<script>
+var clicks = 0;
+function sum() {
+       var txtj1 = document.getElementById('jpoin').value;
+       var txtj2 = document.getElementById('jtotal').value;
+       var txtr1 = document.getElementById('rpoin').value;
+       var txtr2 = document.getElementById('rtotal').value;
+	   var txts1 = document.getElementById('spoin').value;
+       var txts2 = document.getElementById('stotal').value;
+	   var txtf1 = document.getElementById('fpoin').value;
+       var txtf2 = document.getElementById('ftotal').value;
+
+       var resultj = parseInt(txtj1) + parseInt(txtj2);
+	   var resultr = parseInt(txtr1) + parseInt(txtr2);
+	   var results = parseInt(txts1) + parseInt(txts2);
+	   var resultf = parseInt(txtf1) + parseInt(txtf2);
+	   
+       document.getElementById('jtotal').value = resultj;
+	   document.getElementById('rtotal').value = resultr;
+	   document.getElementById('stotal').value = results;
+	   document.getElementById('ftotal').value = resultf;
+   }
+   
+
+</script>
+</html>
