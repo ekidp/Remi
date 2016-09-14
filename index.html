@@ -26,7 +26,7 @@
 
 </body>
 <script>
-var clicks = 0;
+
 function sum() {
        var txtj1 = document.getElementById('jpoin').value;
        var txtj2 = document.getElementById('jtotal').value;
@@ -46,8 +46,17 @@ function sum() {
 	   document.getElementById('rtotal').value = resultr;
 	   document.getElementById('stotal').value = results;
 	   document.getElementById('ftotal').value = resultf;
+	   
+	   document.getElementById('jpoin').value = ('');
+	   document.getElementById('rpoin').value = ('');
+	   document.getElementById('spoin').value = ('');
+	   document.getElementById('fpoin').value = ('');
    }
    
+function klir() {
+		document.getElementsByClassName("tek").value = ('');
+}
+
 
 </script>
 </html>
