@@ -1,0 +1,51 @@
+.tek {
+	padding: 10px;
+	border: none;
+	transition: box-shadow 0.3s, border 0.3s;
+	width: 24%;
+	float: left;
+	text-align: center;
+	font-family: "Segoe UI Black", "Segoe UI", Arial;
+	font-size: medium;
+	font-weight: bold;
+	color: #fff;
+	background-color: #2D2F31;
+	margin-right: 1%;
+	margin-top: 5%;	
+}
+.tot {
+	padding: 10px;
+	border: none;
+	transition: box-shadow 0.3s, border 0.3s;
+	width: 24%;
+	float: left;
+	background-color: #2D2F31;
+	font-family: "Segoe UI", Arial, "Times New Roman";
+	font-size: medium;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	margin-right: 1%;
+	margin-top: 5%;		
+	border-radius: 20px;
+}
+
+.button {
+	margin-top: 7%;
+	margin-bottom: 5px;
+	margin-left: 20%;
+	color: #fff;
+	border: none;
+	width: 100px;
+	height: 35px;
+	font-weight: bold;
+
+}
+
+#button {
+	background-color: #23A86D;
+}
+
+#klir {
+	background-color: #DC5560;
+}
