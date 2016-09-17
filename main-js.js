@@ -28,3 +28,117 @@ function sum() {
        document.getElementById('klik').value = noOfClicks;
    }
 
+
+function kluir() {
+	noOfClicks = 0;
+}
+
+var q=0;
+
+function ganti1(){
+if(q==0){
+document.getElementById("player1").setAttribute('src','img/J.png');
+q++;
+}
+else if (q==1){
+document.getElementById("player1").setAttribute('src','img/F.png');
+q++;
+}
+else if (q==2){
+document.getElementById("player1").setAttribute('src','img/K.png');
+q++;
+}
+else if (q==3){
+document.getElementById("player1").setAttribute('src','img/R.png');
+q++;
+}
+else if (q==4){
+document.getElementById("player1").setAttribute('src','img/S.png');
+q++;
+}
+else if (q==5){
+document.getElementById("player1").setAttribute('src','img/E.png');
+q=0;
+}
+}
+
+function ganti2(){
+if(q==0){
+document.getElementById("player2").setAttribute('src','img/J.png');
+q++;
+}
+else if (q==1){
+document.getElementById("player2").setAttribute('src','img/F.png');
+q++;
+}
+else if (q==2){
+document.getElementById("player2").setAttribute('src','img/K.png');
+q++;
+}
+else if (q==3){
+document.getElementById("player2").setAttribute('src','img/R.png');
+q++;
+}
+else if (q==4){
+document.getElementById("player2").setAttribute('src','img/S.png');
+q++;
+}
+else if (q==5){
+document.getElementById("player2").setAttribute('src','img/E.png');
+q=0;
+}
+}
+
+function ganti3(){
+if(q==0){
+document.getElementById("player3").setAttribute('src','img/J.png');
+q++;
+}
+else if (q==1){
+document.getElementById("player3").setAttribute('src','img/F.png');
+q++;
+}
+else if (q==2){
+document.getElementById("player3").setAttribute('src','img/K.png');
+q++;
+}
+else if (q==3){
+document.getElementById("player3").setAttribute('src','img/R.png');
+q++;
+}
+else if (q==4){
+document.getElementById("player3").setAttribute('src','img/S.png');
+q++;
+}
+else if (q==5){
+document.getElementById("player3").setAttribute('src','img/E.png');
+q=0;
+}
+}
+
+function ganti4(){
+if(q==0){
+document.getElementById("player4").setAttribute('src','img/J.png');
+q++;
+}
+else if (q==1){
+document.getElementById("player4").setAttribute('src','img/F.png');
+q++;
+}
+else if (q==2){
+document.getElementById("player4").setAttribute('src','img/K.png');
+q++;
+}
+else if (q==3){
+document.getElementById("player4").setAttribute('src','img/R.png');
+q++;
+}
+else if (q==4){
+document.getElementById("player4").setAttribute('src','img/S.png');
+q++;
+}
+else if (q==5){
+document.getElementById("player4").setAttribute('src','img/E.png');
+q=0;
+}
+}

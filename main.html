@@ -7,23 +7,29 @@
 <div class="ndas"></div>
 
 <form id="fom">
-  <input type="text" name="p1" class="tek">
-  <input type="text" name="p2" class="tek">
-  <input type="text" name="p3" class="tek">
-  <input type="text" name="p4" class="tek"><br>
+  <div id="hider">Player</div><br>
+  <img src="img/E.png" alt="ply1" onClick="ganti1()" id="player1" class="ply">
+  <img src="img/J.png" alt="ply2" onClick="ganti2()" id="player2" class="ply">
+  <img src="img/S.png" alt="ply3" onClick="ganti3()" id="player3" class="ply">
+  <img src="img/F.png" alt="ply4" onClick="ganti4()" id="player4" class="ply"><br>
   
+  <div id="hider">Poin</div><br>
   <input type="text" name="jpoin" id="jpoin" class="tek">
   <input type="text" name="rpoin" id="rpoin" class="tek">
   <input type="text" name="spoin" id="spoin" class="tek">
   <input type="text" name="fpoin" id="fpoin" class="tek"><br>
   
+  <div id="hider">Total</div><br>
   <input type="text" name="jtotal" id="jtotal" readonly value="0" class="tot">
   <input type="text" name="rtotal" id="rtotal" readonly value="0" class="tot">
   <input type="text" name="stotal" id="stotal" readonly value="0" class="tot">
   <input type="text" name="ftotal" id="ftotal" readonly value="0" class="tot"><br>
-  <input type="button" value="SUBMIT" class="button" id="button" onClick="sum()">
-  <input type="reset" value="CLEAR" class="button" id="klir"><br>
   
+  <div id="petekan">
+  <input type="button" value="SUBMIT" class="button" id="button" onClick="sum()">
+  <input type="reset" value="RESET" class="button" id="klir" onClick="kluir()"></div><br>
+  
+  <div id="hider">Permainan Ke</div><br>
   <input type="text" name="clicks" id="klik" readonly value="0" class="tot">
 </form> 
 
